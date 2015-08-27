@@ -1,0 +1,24 @@
+{
+  "name": "flux-pricing",
+  "version": "0.0.1",
+  "description": "Pricing component with flux",
+  "main": "js/app.js",
+  "author": "Ken Wheeler / Daniel Friedenbach",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^0.13.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "envify": "^3.4.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.3.1"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  }
+}
