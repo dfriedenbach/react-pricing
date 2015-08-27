@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Pricing component with flux",
   "main": "js/app.js",
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d .",
+    "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
   "author": "Ken Wheeler / Daniel Friedenbach",
   "dependencies": {
     "flux": "^2.1.1",
