@@ -1,7 +1,7 @@
 window.React = require('react');
 var ProductData = require('./ProductData');
 var CartAPI = require('./utils/CartAPI');
-var FluxCartApp = require('./components/FluxCartApp');
+var FluxCartApp = require('./components/FluxCartApp.react');
 
 // load mock product data into localStorage
 ProductData.init();

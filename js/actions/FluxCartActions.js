@@ -12,7 +12,7 @@ var FluxCartActions = {
   },
   selectProduct: function(index) {
     AppDispatcher.handleAction({
-      actionType: FluxCartConstants.SET_SELECTED,
+      actionType: FluxCartConstants.SELECT_PRODUCT,
       data: index
     });
   },
