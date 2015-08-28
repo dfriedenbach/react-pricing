@@ -18,7 +18,6 @@ var FluxCart = React.createClass({
 
   render: function() {
     var self = this, products = this.props.products;
-    console.log(products);
     return (
       <div className={"flux-cart " + (this.props.visible ? 'active' : '')}>
         <div className="mini-cart">
